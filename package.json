@@ -5,5 +5,15 @@
   "main": "src/index.js",
   "repository": "https://github.com/MP3Martin/page-loading-custom-personal",
   "author": "MP3Martin <60501493+MP3Martin@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": { 
+    "next": "^12.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }, 
+  "dependencies": {
+    "react-spinners-kit": "^1.9.1",
+    "react-loading-overlay": "^1.0.1",
+    "prop-types": "~15.8.1"
+  }
 }
