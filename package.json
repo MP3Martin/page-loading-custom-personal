@@ -1,6 +1,6 @@
 {
   "name": "@mp3martin/page-loading-custom-personal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Next.js page loading wrapper. Made for personal use, but you can use it.",
   "main": "src/index.js",
   "repository": "https://github.com/MP3Martin/page-loading-custom-personal",
