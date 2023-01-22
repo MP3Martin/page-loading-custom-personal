@@ -1,5 +1,6 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, './src/index.js'),
@@ -24,5 +25,18 @@ module.exports = {
     }
   },
   target: 'node', // use require() & use NodeJs CommonJS style
-  externals: [nodeExternals()]
+  externals: [nodeExternals()],
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        terserOptions: {
+          format: {
+            comments: true
+          }
+        },
+        extractComments: false
+      })
+    ]
+  }
 };
