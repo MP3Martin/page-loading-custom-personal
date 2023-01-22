@@ -17,7 +17,11 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'index.js'
+    filename: 'index.js',
+    library: {
+      name: 'PageLoading',
+      type: 'umd'
+    }
   },
   target: 'node', // use require() & use NodeJs CommonJS style
   externals: [nodeExternals()]

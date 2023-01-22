@@ -1,6 +1,6 @@
 {
   "name": "@mp3martin/page-loading-custom-personal",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Next.js page loading wrapper. Made for personal use, but you can use it.",
   "main": "dist/index.js",
   "scripts": {
@@ -23,8 +23,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.57.1",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11",
+    "webpack": "5.75.0",
+    "webpack-cli": "3.3.11",
     "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
