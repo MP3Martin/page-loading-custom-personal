@@ -10,5 +10,5 @@ yarn add @mp3martin/page-loading-custom-personal
 ## Import
 
 ```js
-import PageLoading from '@mp3martin/page-loading-custom-personal';
+import { PageLoading } from '@mp3martin/page-loading-custom-personal';
 ```
